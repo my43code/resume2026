@@ -119,14 +119,14 @@ function App() {
   return (
     <div className="page">
       <div className="top-bar">
-        <div className="pill">Professional Resume</div> 
+        <div className="pill">Professional Resume</div>
         <button onClick={downloadPDF}>Download PDF</button>
       </div>
 
       <div className="resume" ref={resumeRef}>
         <aside className="sidebar">
           <div className="avatar-wrap">
-            <img src={resumeData.profilePicture} alt={resumeData.name} className="src/assets/profile.jpg" /> 
+            <img src={resumeData.profilePicture} alt={resumeData.name} className="avatar-image" /> 
           </div>
           <h1>{resumeData.name}</h1>
           <p className="title">{resumeData.title}</p>
