@@ -126,7 +126,7 @@ function App() {
       <div className="resume" ref={resumeRef}>
         <aside className="sidebar">
           <div className="avatar-wrap">
-            <img src={resumeData.profilePicture} alt={resumeData.name} className="public/profile-picture" />
+            <img src={resumeData.profilePicture} alt={resumeData.name} className="avatar-image" />
           </div>
           <h1>{resumeData.name}</h1>
           <p className="title">{resumeData.title}</p>
@@ -303,4 +303,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
