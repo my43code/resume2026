@@ -4,16 +4,16 @@ const resume = {
   profilePicture: "/profile.JPG",
   website: "https://pngtechco.com",
   contact: {
-    address: "Waigani Christian College, NCD, Port Moresby",
+    address: "Waigani Christian College, NCD, Port Moresby", 
     phone: "+675 78337236",
     email: "masomaso23@gmail.com",
   },
   profile:
     "I am a result-oriented and hardworking ICT Support Officer at Waigani Christian College. Currently, I support staff at Waigani Christian College in ICT-related issues and teach Grade 12 ICT on a casual basis while preparing for my desired job based on my qualifications, skills, and experience. I have strong foundational skills in networking, graphic design, database management, and web or software development. I am proficient in HTML, CSS, JavaScript, and Python, and I developed a fully functional website as an academic project while studying Computer Science at the University of Papua New Guinea (UPNG). A link to the website is provided below.",
   experience: [
-    {
+    { 
       role: "IT Support Officer",
-      company: "Deloitte, NCD, Port Moresby",
+      company: "Deloitte, NCD, Port Moresby", 
       period: "February 16 - Present, 2026",
       duties: [
         "Manage the Server Room.",
@@ -26,7 +26,7 @@ const resume = {
     },
     {
       role: "IT Officer & Teacher",
-      company: "Waigani Christian College, Port Moresby",
+      company: "Waigani Christian College, Port Moresby", 
       period: "2024 - 2025",
       duties: [
         "Taught Grade 12 ICT (eight classes).",
@@ -56,7 +56,7 @@ const resume = {
       "Completed a major project in website development using HTML, CSS, JavaScript, Python, GitHub, and Netlify.",
     link: "https://tangerine-melomakarona-faacc4.netlify.app/",
   },
-  education: [
+  education: [ 
     {
       school: "University of Papua New Guinea",
       qualification: "Bachelor of Science (Computer Science & ICT)",
