@@ -9,7 +9,7 @@ const resume = {
     email: "masomaso23@gmail.com",
   },
   profile:
-    "I am a result-oriented and hardworking ICT Support Officer at Waigani Christian College. Currently, I support staff at Waigani Christian College in ICT-related issues and teach Grade 12 ICT on a casual basis while preparing for my desired job based on my qualifications, skills, and experience. I have strong foundational skills in networking, graphic design, database management, and web or software development. I am proficient in HTML, CSS, JavaScript, and Python, and I developed a fully functional website as an academic project while studying Computer Science at the University of Papua New Guinea (UPNG). A link to the website is provided below.",
+    "I am a highly motivated and skilled IT Officer with a strong background in computer science and ICT. I have experience in IT support, web development, and database management. I am passionate about technology and continuously seek to enhance my skills and knowledge in the field. My goal is to contribute to the success of an organization by leveraging my technical expertise and problem-solving abilities.",
   experience: [
     { 
       role: "IT Support Officer",
