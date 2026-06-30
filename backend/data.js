@@ -4,7 +4,7 @@ const resume = {
   profilePicture: "/profile.JPG",
   website: "https://pngtechco.com",
   contact: {
-    address: "Waigani Christian College, NCD, Port Moresby", 
+    address: "Deloitte, NCD, Port Moresby", 
     phone: "+675 78337236",
     email: "masomaso23@gmail.com",
   },
