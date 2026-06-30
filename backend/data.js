@@ -45,6 +45,7 @@ const resume = {
         "Purchased the domain name wcc.ac.pg and published the website.",
         "Skills involved: HTML, CSS, JavaScript, Git, PHP, MySQL, Python.",
         " website: https://wcc.ac.pg"
+        
       ],
     },
   ],
