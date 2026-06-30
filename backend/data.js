@@ -9,7 +9,7 @@ const resume = {
     email: "masomaso23@gmail.com",
   },
   profile:
-    "I am a highly motivated and skilled IT Officer with a strong background in computer science and ICT. I have experience in IT support, web development, and database management. I am passionate about technology and continuously seek to enhance my skills and knowledge in the field. My goal is to contribute to the success of an organization by leveraging my technical expertise and problem-solving abilities.",
+    "I am a highly motivated and skilled IT Officer with a strong background in computer science and ICT. I have experience in IT support, web development, and database management. I am passionate about technology and continuously seek to enhance my skills and knowledge in the field. My goal is to contribute to the success of an organization by leveraging my technical expertise and problem-solving abilities.", 
   experience: [
     { 
       role: "IT Support Officer",
