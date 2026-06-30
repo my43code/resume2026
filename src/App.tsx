@@ -101,6 +101,7 @@ function App() {
   const [resumeData, setResumeData] = useState<ResumeData | null>(null);
   const [loading, setLoading] = useState(true);
   const [imgError, setImgError] = useState(false);
+  const [photoVersion, setPhotoVersion] = useState(() => Date.now());
   const [openSections, setOpenSections] = useState<Record<string, boolean>>({
     profile: true,
     experience: true,
@@ -153,6 +154,7 @@ function App() {
 
   useEffect(() => {
     setImgError(false);
+    setPhotoVersion(Date.now());
   }, [resumeData?.profilePicture]);
 
   const toggleSection = (key: string) => {
@@ -215,7 +217,7 @@ function App() {
           <div className="avatar-wrap">
             {!imgError ? (
               <img
-                src={resumeData.profilePicture || "/profile.JPG"}
+                src={`${(resumeData.profilePicture || "/profile.JPG").replace(/\?.*$/, "")}?v=${photoVersion}`}
                 alt={resumeData.name}
                 className="avatar-image"
                 onError={() => setImgError(true)}
