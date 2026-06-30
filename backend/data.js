@@ -1,7 +1,7 @@
 const resume = {
   name: "MANU MASO",
   title: "IT Officer | ICT Professional | Aspiring Web Developer",
-  profilePicture: "/public/assets/profile.jpg",
+  profilePicture: "/assets/profile.jpg",
   website: "https://pngtechco.com",
   contact: {
     address: "Waigani Christian College, NCD, Port Moresby",
