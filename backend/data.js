@@ -9,7 +9,7 @@ const resume = {
     email: "masomaso23@gmail.com",
   },
   profile:
-    "Hi, Iam Manu, an IT Officer with a strong background in computer science and ICT. I am currently with Deloitte, NCD, Port Moresby. I am always eager to learn and work on web development and software engineering projects. I am the Funder of Nextus DevOps Limited, an IT consulting firm. I am always fascinate about technology and its potential to transform businesses and society. I am a dedicated and passionate IT professional with a strong work ethic and a commitment to excellence.", 
+    "Hi, I am Manu, an IT Officer with a strong background in computer science and ICT. I am currently with Deloitte, NCD, Port Moresby. I am always eager to learn and work on web development and software engineering projects. I am the Funder of Nextus DevOps Limited, an IT consulting firm. I am always fascinate about technology and its potential to transform businesses and society. I am a dedicated and passionate IT professional with a strong work ethic and a commitment to excellence.", 
   experience: [
     { 
       role: "IT Support Officer",
@@ -21,16 +21,16 @@ const resume = {
         "Develop skills in public speaking, time management, stress management, multitasking, teamwork, and responsibility.",
         "Set up printers and desktop PCs.",
         "Troubleshoot networks and computers.",
-        "Support staff and upgrade official school websites, among other duties.",
+        "Support staff and upgrade official school websites, among other duties.", 
       ],
     },
     {
       role: "IT Officer & Teacher",
-      company: "Waigani Christian College, Port Moresby", 
+      company: "Waigani Christian College, Port Moresby",  
       period: "2024 - 2025",
       duties: [
         "Taught Grade 12 ICT (eight classes).",
-        "Developed skills in public speaking, time management, stress management, multitasking, teamwork, and responsibility.",
+        "Developed skills in public speaking, time management, stress management, multitasking, teamwork, and responsibility.", 
         "Set up printers and desktop PCs.",
         "Troubleshot networks and computers.",
         "Supported teachers and students with ICT-related issues.",
