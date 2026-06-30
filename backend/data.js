@@ -9,7 +9,7 @@ const resume = {
     email: "masomaso23@gmail.com",
   },
   profile:
-    "I am a highly motivated and skilled IT Officer with a strong background in computer science and ICT. I have experience in IT support, web development, and database management. I am passionate about technology and continuously seek to enhance my skills and knowledge in the field. My goal is to contribute to the success of an organization by leveraging my technical expertise and problem-solving abilities.", 
+    "Hi, Iam Manu, an IT Officer with a strong background in computer science and ICT. I am currently with Deloitte, NCD, Port Moresby. I am always eager to learn and work on web development and software engineering projects. I am the Funder of Nextus DevOps Limited, an IT consulting firm. I am always fascinate about technology and its potential to transform businesses and society. I am a dedicated and passionate IT professional with a strong work ethic and a commitment to excellence.", 
   experience: [
     { 
       role: "IT Support Officer",
@@ -33,7 +33,7 @@ const resume = {
         "Developed skills in public speaking, time management, stress management, multitasking, teamwork, and responsibility.",
         "Set up printers and desktop PCs.",
         "Troubleshot networks and computers.",
-        "Supported staff and upgraded official school websites, among other duties.",
+        "Supported teachers and students with ICT-related issues.",
       ],
     },
     {
