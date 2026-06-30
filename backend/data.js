@@ -1,7 +1,7 @@
 const resume = {
   name: "MANU MASO",
   title: "IT Officer | ICT Professional | Aspiring Web Developer",
-  profilePicture: "/profile-picture.svg",
+  profilePicture: "/public/assets/profile.jpg",
   website: "https://pngtechco.com",
   contact: {
     address: "Waigani Christian College, NCD, Port Moresby",
@@ -44,7 +44,7 @@ const resume = {
         "Created the website for Waigani Tertiary Wing.",
         "Purchased the domain name wcc.ac.pg and published the website.",
         "Skills involved: HTML, CSS, JavaScript, Git, PHP, MySQL, Python.",
-        "Currently managing the website.",
+        " website: https://wcc.ac.pg"
       ],
     },
   ],
