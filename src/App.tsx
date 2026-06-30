@@ -117,23 +117,28 @@ function App() {
     const fetchResume = async () => {
       const controller = new AbortController();
       const timeoutId = window.setTimeout(() => controller.abort(), 4000);
+      let data: ResumeData | null = null;
 
       try {
         const response = await fetch("/api/resume", { signal: controller.signal });
-        if (!response.ok) throw new Error("Resume request failed");
+        if (!response.ok) throw new Error("Resume API request failed");
 
-        const data = (await response.json()) as ResumeData;
-        if (active) {
-          setResumeData(data);
-        }
-      } catch (error) {
-        console.error("Failed to load resume data", error);
-        if (active) {
-          setResumeData(fallbackResumeData);
+        data = (await response.json()) as ResumeData;
+      } catch (apiError) {
+        console.warn("Resume API unavailable, falling back to static JSON", apiError);
+
+        try {
+          const response = await fetch("/resume.json", { signal: controller.signal });
+          if (!response.ok) throw new Error("Static resume request failed");
+
+          data = (await response.json()) as ResumeData;
+        } catch (staticError) {
+          console.error("Failed to load fallback resume data", staticError);
         }
       } finally {
         window.clearTimeout(timeoutId);
         if (active) {
+          setResumeData(data ?? fallbackResumeData);
           setLoading(false);
         }
       }
